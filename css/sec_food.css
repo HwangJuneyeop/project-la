@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* sec_food */
+#sec_food {
+    background-image: linear-gradient(to top, #f3f3f3 0%, #eeeeee 100%);
+    padding-top: 150px;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.food_swiper {
+    height: 50vh;
+    position: relative;
+}
+.food_swiper .slide {
+    width: 620px;
+    height: 360px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.food_swiper .slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.food_swiper .slide img:hover {
+    filter: brightness(70%); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9); /* 그림자 효과. 원하는 색상 및 효과로 변경하세요 */
+    transition: all 0.7s ease;
+}
