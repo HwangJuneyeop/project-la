@@ -23,7 +23,7 @@ strong {
 /* main */
 .main_area {
     position: relative;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/sec_best/_SUB_best/elmata.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/sec_best/SUB_best/elmata.jpg);
     background-position: center;
     background-size: cover;
     width:100%;
